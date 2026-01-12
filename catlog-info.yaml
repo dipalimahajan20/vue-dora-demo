@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "vue-dora-demo"
+  annotations:
+    github.com/project-slug: dipalimahajan20/vue-dora-demo
+    backstage.io/source-location: url:https://github.com/dipalimahajan20/vue-dora-demo
+    devlake.io/project-name: vue-dora-demo
+    backstage.io/techdocs-ref: url:https://github.com/dipalimahajan20/vue-dora-demo/main/catalog-info.yaml
+spec:
+  type: service
+  owner: user:guest
+  lifecycle: experimental
+  sourceLocation: url:https://github.com/dipalimahajan20/vue-dora-demo  # Add this line
